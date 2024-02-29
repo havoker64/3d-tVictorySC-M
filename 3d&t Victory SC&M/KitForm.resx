@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ttInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cbxSvigilant.ToolTip" xml:space="preserve">
+    <value>Exigências. Invisível, Sentido (infravisão)
+• Forma sombria. Você pode gastar um movimento para adquirir
+a vantagem Incorpóreo ao custo de 1PM por turno, por uma quanti-
+dade de turnos igual a 5 ou sua Habilidade, o que for menor. Se já 
+tem Incorpóreo pode interagir com o mundo físico (inclusive atacar)
+ao custo de 1PM por interação.
+• Terror da noite. Sempre que causa dano, você pode gastar 2PM
+para forçar o alvo a fazer um teste de R (6 + H do vigilante). Se falhar,
+ele tem Perda na defesa contra o próximo ataque que receber. Caso
+seja uma falha crítica, ele fica indefeso.
+• Sumir nas sombras. Você gasta 1PM (em vez de 3) para  ficar In-
+visível.</value>
+  </data>
+  <data name="cbxMmaster.ToolTip" xml:space="preserve">
+    <value>Exigências. Animais; Ajudante
+• Amigo dos monstros. Para você, cada utilização de Ajudante
+custa –1PM (mínimo 1PM).
+• Eu escolho você! Se tiver mais de um Ajudante, você pode 
+utilizar a vantagem duas vezes por rodada, em vez de uma (apenas
+duas, mesmo se tiver mais de dois Ajudantes). Você não pode usar
+o mesmo Ajudante mais de uma vez em cada rodada, e você ainda 
+deve pagar o custo em PM por cada utilização.
+• Temos que pegar! No início da cena, você pode fazer um teste
+de Animais (9 ou mais, a critério do mestre). Em caso de sucesso, 
+um novo Ajudante (tipo escolhido pelo mestre) surge para ajudá-lo 
+até o fim da cena. Você ainda deve pagar o custo em PM por sua utili-
+zação. Este poder funciona apenas uma vez por sessão.</value>
+  </data>
+  <data name="cbxTank.ToolTip" xml:space="preserve">
+    <value>Exigências. R3, Defesa Especial (Provocação)
+• Hoje não! Uma vez por cena, quando recebe dano que o levaria a
+0PV, você pode ignorar completamente esse dano.
+• Defesa gratuita. Uma vez por cena, você pode usar uma Defesa
+Especial sem gastar PM.
+• Último bastião. Quando você está perto da derrota, todos os seus
+testes de defesa têm Ganho.</value>
+  </data>
+  <data name="cbxShero.ToolTip" xml:space="preserve">
+    <value>Exigências. Ágil, Carismático, Forte, Gênio, Resoluto ou Vigoroso; 
+Código dos Heróis
+• Sobrehumano. Escolha uma vantagem das exigências que
+você possua. Você pode gastar 1PM para aumentar seu bônus 
+de atributo em +4, em vez de +2.
+• Façanha épica. Uma vez por sessão, em um teste envolven-
+do um atributo sobrehumano, você pode aumentar esse teste 
+uma escala.
+• Herói de ação. Você tem 2 Pontos de Ação extras (Poder+2).</value>
+  </data>
+  <data name="cbxSathlete.ToolTip" xml:space="preserve">
+    <value>Exigências. Esportes
+• Aquecimento. No início de uma nova cena, você sempre recupe-
+ra  um número de PM igual a seu maior atributo.
+• Espírito olímpico. Suas vitórias inspiram seus companheiros.
+Sempre que você tem sucesso em um teste, todos os seus aliados 
+recebem +1 em seu teste seguinte.
+• Medalha de ouro. Uma vez por cena, você pode usar Esportes 
+para substituir qualquer outra perícia. Você pode pagar 3PM para 
+cada nova utilização na mesma cena.</value>
+  </data>
+  <data name="cbxShinigami.ToolTip" xml:space="preserve">
+    <value>Exigências. Imortal, Inimigo (espíritos)
+• Eu voltarei! Um shinigami morto retorna com recursos completos
+no início da cena seguinte. A única forma de destruí-lo permanentemen-
+te é pelo ataque de outro shinigami.
+• Guia dos mortos. Cabe ao shinigami adiar a passagem daqueles 
+cuja hora final ainda não chegou. Você pode conceder um Ganho a qual-
+quer teste de morte realizado em sua presença.
+• Inimigo espiritual. Um espírito derrotado por um shinigami não re-
+cupera PV e permanece derrotado até o fim da cena, ou até ser destruído.</value>
+  </data>
+  <data name="cbxSminion.ToolTip" xml:space="preserve">
+    <value>Exigências. Luta; Devoto
+• Bater onde dói. Quando faz um ataque, você pode gastar 2PM
+para impor R–1 no teste de defesa do oponente.
+• Combate violento. Para cada acerto crítico em um teste de ata-
+que, além do efeito normal, você também soma +2 ao resultado final.
+• Faísca da Centelha. Você é devotado ao despertar da Centelha. 
+Quando usa sua vantagem Devoto, em vez do benefício normal, você
+recebe P+2 e R+1 (não afeta seus recursos). O efeito dura uma 
+quantidade de rodadas igual seu Poder, após o ajuste.</value>
+  </data>
+  <data name="cbxSamurai.ToolTip" xml:space="preserve">
+    <value>Exigências. Patrono ou Código
+• Guerreiro poeta. Samurais são treinados em arte e etiqueta.
+Você pode gastar 2PM para receber +3 em qualquer teste de Arte 
+ou Influência.
+• Artefato ancestral. No início de seu turno, você pode gastar
+PM para imbuir sua arma ou armadura com uma qualidade de 
+artefato (veja em Recompensas) durante um turno. O custo é 
+igual a um décimo do custo em XP. Por exemplo, pode tornar sua
+arma Encantada +1 por 1PM, ou sua armadura Fortificada por 2PM.
+Você pode aplicar apenas uma qualidade por vez.
+• Guerreiro honrado. Você tem 1 Ponto de Ação extra para cada 
+Patrono e Código que possua. Se desobedecer a seu Patrono ou 
+violar qualquer de seus Códigos, perde esses pontos extras até se
+redimir. (Note que você pode escolher adotar mais de dois Códigos,
+embora não receba pontos de personagem por estes.)</value>
+  </data>
+  <data name="cbxEreporter.ToolTip" xml:space="preserve">
+    <value>Exigências. Percepção; Sentido (Intuição)
+• Faro para notícia. Você fuça até achar. Pode pagar 1PM para 
+trocar sua Intuição por outro Sentido, para um único teste.
+• Fontes confiáveis. Uma vez por sessão, você pode contactar
+suas fontes para revelar uma informação crucial no momento certo.
+Durante uma cena, escolha uma vantagem entre Ajudante, Arena, 
+Base, Inimigo ou Telepata. Você ainda paga custos em PM da vanta-
+gem escolhida, se houver.
+• Furo de reportagem. Uma vez por cena, você pode usar Per-
+cepção para substituir qualquer outra perícia. Você pode pagar 3PM
+para cada nova utilização na mesma cena.</value>
+  </data>
+  <data name="cbxPsyonic.ToolTip" xml:space="preserve">
+    <value>Exigências. Obstinado, Sentido (Intuição), Telepata
+• Dom telepático. Você não precisa gastar um movimento (mas
+ainda gasta PM) para usar Telepata.
+• Intuição psíquica. Você pode pagar 1PM para ter Ganho em um
+teste de Percepção usando Sentido (Intuição).
+• Sobrecarga psíquica. Quando utiliza Obstinado, você pode es-
+colher gastar 1 ponto de atributo como se fossem 2 Pontos de Ação, 
+em vez de 1. Sempre que fizer isso, role um dado. Com um resulta-
+do 1, seus PV caem para zero e você deve fazer um teste de morte.</value>
+  </data>
+  <data name="cbxSpoliceman.ToolTip" xml:space="preserve">
+    <value>Exigências. Luta; Ajudante, Patrono; Código dos Heróis
+• Jouchaku! Você pode gastar um movimento para  invocar
+um traje de combate tecnológico, ou abandonar seu disfarce
+humano e reverter para sua forma verdadeira. Nesta forma, 
+pode gastar 2PM para um único uso da vantagem Alcance 1 
+(pistola de raios) ou Golpe Final. A transformação dura até o 
+m da cena.
+• Assistente. Seu Ajudante custa –1PM (mínimo 1PM) para 
+ser utilizado.
+• Kiodai mecha. Uma vez por sessão, ou a critério do mes-
+tre, seu Patrono disponibiliza um veículo de 10 pontos em es-
+cala Kiodai (cruzador espacial, robô gigante, dinossauro me-
+cânico…). O veículo surge apenas se houver um oponente de
+escala Kiodai na cena.</value>
+  </data>
+  <data name="cbxMpilot.ToolTip" xml:space="preserve">
+    <value>Exigências. Máquinas; Ajudante
+• Ajudante robô. Seu Ajudante robótico funciona como arma,
+armadura e veículo, sendo considerado Lutador e Montaria. Você
+ainda deve pagar PM para cada utilização.
+• Ás indomável. Você é um mestre das manobras impossíveis.
+Uma vez por sessão, quando usar 1 Ponto de Ação para qualquer
+teste, você também pode aumentar esse teste uma escala.
+• Kiodai mecha. Uma vez por sessão, ou a critério do mestre, 
+você pode invocar um veículo de 10 pontos em escala Kiodai
+(cruzador espacial, robô gigante, dinossauro mecânico…). O veí-
+culo surge apenas se houver um oponente de escala Kiodai na 
+cena.</value>
+  </data>
+  <data name="cbxFisherman.ToolTip" xml:space="preserve">
+    <value>Exigências. Poder 3; Sobrevivência; Vigoroso
+• Quem sou? Onde estou? Uma vez por cena, você pode 
+usar os benefícios da vantagem Vigoroso em testes de Poder.
+• Parrudez. Você pode gastar 1PM para fazer um teste de de-
+fesa usando a perícia Sobrevivência. Quando o faz, some +1 
+ao resultado de cada dado (não afeta acertos críticos, mas can-
+cela falhas críticas). Qualquer defesa bem-sucedida é conside-
+rada perfeita.
+• Pescado do dia. No início da cena, faça um teste de Sobre-
+vivência (meta 6 +1 para cada aliado). Se tiver sucesso, todos 
+ganham +1 em testes de Resistência, incluindo defesa, até o  fim
+da cena. Funciona apenas próximo a lugares com possibilidade
+de pesca (rio, lago, mar, peixaria...).</value>
+  </data>
+  <data name="cbxRanger.ToolTip" xml:space="preserve">
+    <value>Exigências. Sobrevivência
+• Natureza provedora. Uma vez por cena, você pode usar
+Sobrevivência para substituir qualquer outra perícia. Você po-
+de pagar 3PM para cada nova utilização na mesma cena.
+• À prova de tudo. Você é automaticamente bem-sucedido
+em testes de Sobrevivência para achar lugar adequado de des-
+canso para você e seus aliados. Você também pode pagar 1PM
+para que você ou um aliado receba +3 em um teste contra priva-
+ções (cansaço, respiração, fome e sede, sono).
+• Rastreador perfeito. Você pode pagar 2PM para adquirir um 
+Sentido à sua escolha, para um único teste.</value>
+  </data>
+  <data name="cbxPaladin.ToolTip" xml:space="preserve">
+    <value>Exigências. Devoto; Código dos Heróis e Honestidade
+• Bravura final. Sua virtude vence a morte. Você não faz
+testes de morte: em vez disso, qualquer dano que recebe 
+neste estado é descontado de seus PM restantes. Se  ficar
+sem PM, você cai automaticamente Quase Morto. PM perdi-
+dos assim só podem ser recuperados com descanso.
+• Me dê sua força! O poder da sua devoção o fortalece.
+Quando usa Devoto para ter Ganho em um teste, some +1 
+ao resultado de cada dado. Isso não afeta acertos críticos, 
+mas cancela falhas críticas.
+• Sétimo sentido. Quando está perto da derrota, você po-
+de gastar 2PM para fazer um ataque ou defesa uma escala
+acima.</value>
+  </data>
+  <data name="cbxOperative.ToolTip" xml:space="preserve">
+    <value>Exigências. Luta, Sobrevivência; Patrono
+• Combate tático. Sempre que executa uma manobra de combate
+(agarrão, ataque concentrado, ataque direcionado, ataque total, contra-
+ataque, defesa total, fuga), você pode pagar 1PM para ter +3 em seu 
+teste de ataque ou defesa.
+• Armas secretas. Tentativas de revelar ou anular suas vantagens e
+técnicas (como Anulação ou Telepatia) sempre sofrem Perda, ou 
+gastam PM dobrado.
+• Equipamento de espião. Uma vez por sessão, seu Patrono forne-
+ce um aparelho com efeito igual a uma vantagem de 1pt (escolhida no
+início da sessão), que funciona uma única vez. Para vantagens que 
+gastam Pontos de Mana, o aparelho tem carga equivalente a 3PM.</value>
+  </data>
+  <data name="cbxNinja.ToolTip" xml:space="preserve">
+    <value>Exigências. Manha; Mentor
+• Mestre ninja. Você tem Ganho em dois testes de perícia por
+cena pela vantagem Mentor, em vez de um.
+• Ninpo de combate. Uma vez por rodada, você pode gastar
+1PM para trocar um teste de ataque ou defesa por um teste de 
+Manha (Habilidade). Você pode usar vantagens e técnicas como
+se fosse um ataque ou defesa normal.
+• Ougi. Escolha uma de suas vantagens ou técnicas: ela será 
+seu ougi, ou técnica secreta. Custará –1PM (mínimo 1) e, no 
+primeiro uso da sessão, o alvo tem Perda no teste resistido. 
+Você pode trocar seu ougi sempre que passar por uma evolução
+dramática.</value>
+  </data>
+  <data name="cbxNegotiator.ToolTip" xml:space="preserve">
+    <value>Exigências. Influência, Carismático
+• Argumentação. Uma vez por cena, você pode usar Influência
+para substituir qualquer outra perícia. Você pode pagar 3PM para
+cada nova utilização na mesma cena.
+• Empatia. Você entende e questiona as motivações dos outros.
+Pode pagar 2PM para anular um Ganho em um teste de Poder 
+(incluindo combate) realizado contra você.
+• Palavras de conforto. Sempre que qualquer poder de cura é
+utilizado em sua presença, o teste tem Ganho ou recupera +2PV.</value>
+  </data>
+  <data name="cbxNecromancer.ToolTip" xml:space="preserve">
+    <value>Exigências. Mística; Magia
+• Criar morto-vivo. Você conjura servos desmortos. Se bem- sucedido
+em um teste de Mística (9), gaste 1PM para receber um Ajudante de tipo à
+sua escolha, até o fim da cena. Você ainda deve pagar PM por cada utiliza-
+ção do Ajudante.
+• Energia negativa. Suas vantagens de cura (incluindo um Ajudante Cu-
+randeiro) funcionam em seres Sem Vida* (mas não se aplica a descanso 
+ou itens).
+• Fortificar morto-vivo. Você gasta –1PM (mínimo 1) para usar Magia 
+em seres Sem Vida*.
+*Incluindo você mesmo, se tiver essa desvantagem. O mestre pode vetar
+casos em que isso não se aplica, como ciborgues e construtos; ou fazer 
+exceções, como vampiros.</value>
+  </data>
+  <data name="cbxMrider.ToolTip" xml:space="preserve">
+    <value>Exigências. Luta; Ajudante (Montaria)
+• Henshin. Você pode gastar um movimento para invocar sua máscara
+e traje de combate, ou abandonar seu disfarce humano e reverter para
+sua forma verdadeira. Nesta forma, pode gastar 2PM para ter Ganho em
+um teste de Luta, e testes para descobrir sua verdadeira identidade 
+sofrem Perda. A transformação dura até o fim da cena.
+• Moto de batalha. Você pode pagar 2PM para que seu ajudante atue
+como Lutador, em vez de Montaria.
+• Até o fim. Você não sofre Perda e pode seguir lutando normalmente 
+quando está derrotado. Você ainda pode morrer se receber dano nesse
+estado.</value>
+  </data>
+  <data name="cbxMonk.ToolTip" xml:space="preserve">
+    <value>Exigências. Ágil; Resoluto ou Vigoroso; 1ª Lei de Asimov
+• Agilidade superior. Para você a vantagem Ágil oferece H+3, 
+em vez de +2.
+• Alma de aço. Sempre que faz um teste de R (incluindo defe-
+sas), você pode gastar 1PM para aumentar em +1 o resultado de
+um dado. Esse poder não provoca acertos críticos, mas anula 
+falhas críticas.
+• Controle dos chakras. Em situação de conflito, você pode gastar
+um turno completo para recuperar 1D+H PV ou 1D+H PM. Você 
+pode usar este poder apenas se tiver pelo menos 1PV e 1PM.
+</value>
+  </data>
+  <data name="cbxCheff.ToolTip" xml:space="preserve">
+    <value>Exigências. Arte ou Sobrevivência
+• Talento culinário. Você recebe +3 em todos os testes de
+Arte e Sobrevivência para preparar refeições.
+• Prato milagroso. Uma vez por sessão, quando prepara uma
+refeição, você pode gastar Pontos de Ação para conceder uma 
+vantagem (veja em +Ação!!!) como poder surpreendente a você 
+mesmo ou um aliado, pela duração do efeito do prato.
+• Despensa cheia. Você começa cada sessão com um número
+de refeições básicas igual à sua Habilidade. Você pode trocar 
+três refeições básicas por uma refeição gourmet, ou cinco básicas
+por uma refeição do chef que já conheça.</value>
+  </data>
+  <data name="cbxMercenary.ToolTip" xml:space="preserve">
+    <value>Exigências. Devoto, Patrono, Código
+• Nem morto. Você não morre sem cumprir a missão. Enquanto
+tiver um contrato, sempre que  zer um teste de morte, role +1D e 
+descarte o menor resultado.
+• Melhor no que faz. Você é devotado a cumprir seus contratos.
+Pode usar Devoto até três vezes por cena, em vez de duas.
+• Trato feito. No início de cada sessão, se não houver violação 
+do Código (veja a seguir), você pode escolher mudar de Patrono,
+representando seu contratante atual. Além disso, em testes de 
+compra para o Patrono, some +3 ao resultado final.
+Código do Mercenário(–1pt) Jamais trair seu Patrono. Jamais
+falhar em cumprir uma missão para seu Patrono. Este Código po-
+de ser adquirido apenas por personagens com Patrono.</value>
+  </data>
+  <data name="cbxMnstreamer.ToolTip" xml:space="preserve">
+    <value>Exigências. Arte, Influência ou Carismático; Famoso
+• Inspirar. Você pode gastar um movimento e 3PM para conceder
+Ganho ao teste de perícia de um aliado Perto ou Longe.
+Esse teste deve ser realizado até o próximo turno do aliado; não é
+possível “guardar” para depois. Se já tiver este poder (pelo arquétipo
+Celestial ou outra fonte), o custo cai para 1PM.
+• É meu amigo! Menes transformam seus companheiros em cele-
+bridades. Você pode pagar 1PM para conceder a um aliado os bene-
+fícios da vantagem Famoso durante uma cena.
+• Audiência generosa. Com um teste de Arte ou Influência (9), o 
+menestreamer pode arrecadar doações de seus seguidores para 
+ter Ganho em um teste de compra.</value>
+  </data>
+  <data name="cbxWizard.ToolTip" xml:space="preserve">
+    <value>Exigências. Mística; Magia
+• Aptidão mágica. Seu bônus máximo da vantagem Magia é
+H+2 (em vez de H).
+• Bateria de mana. Uma vez por cena, você pode usar uma ação
+completa para recuperar 1D+H PM.
+• Preparar magias. Sempre que estiver com Pontos de Mana 
+completos (tipicamente após um descanso) e não envolvido em 
+conflito, você pode escolher deixar certas magias preparadas, 
+otimizando o gasto de mana. Faça uma lista com os efeitos de 
+Magia que preferir (por exemplo, +2 em ataque, +3 em defesa,
++2 em uma perícia...). Você gasta metade dos PM para preparar
+essas magias. Elas não podem ser mudadas, e seus PM não
+podem ser recuperados, até você usá-las.</value>
+  </data>
+  <data name="cbxMaginaut.ToolTip" xml:space="preserve">
+    <value>Exigências. Magia, Mística
+• Imersão. Você usa uma ação completa e 2PM para imergir a
+consciência no magiespaço. Enquanto está ali seu corpo físico 
+ca imóvel
+e indefeso, mas você sempre tem Ganho em testes de Mística, 
+a vantagem Magia (e técnicas que a tenham como requisito) 
+gasta metade dos PM, e pode afetar alvos até Muito Longe sem 
+penalidade. No entanto, não pode interagir sem usar Magia com
+nenhum personagem ou objeto. Manter a imersão custa 1PM por
+rodada, e pode encerrá-la com um movimento.
+• Interferência. Você pode usar uma ação e 2PM para conceder
+Ganho ou causar Perda em um teste de Mística de outro persona-
+gem, que seja feito até seu próximo turno. No magiespaço, este 
+poder gasta apenas um movimento.
+• Sobrecarga. Você sobrecarrega suas magias até quase estou-
+rar. Ao usar Magia, faça um teste de Mística (9). Com sucesso, rece-
+be +2 no teste afetado. Cada crítico aumenta em +1. Em caso de fa-
+lha a magia não tem efeito, mas ainda gasta PM (falha crítica gasta 
+o dobro).</value>
+  </data>
+  <data name="cbxRogue.ToolTip" xml:space="preserve">
+    <value>Exigências. Manha; Ágil ou Gênio
+• Ataque furtivo. Quando ataca um alvo desprevenido, você
+pode gastar 2PM para reduzir em –1 sua Resistência para de-
+fesa. Você também pode gastar +1PM para fazer um ataque 
+furtivo contra um alvo envolvido em combate com um aliado.
+• Malandragem. Para tudo se dá um jeitinho. Uma vez por 
+cena, você pode usar Manha para substituir qualquer outra 
+perícia. Você pode pagar 3PM para cada nova utilização na 
+mesma cena.
+• Trapaça. Ao usar um poder surpreendente (veja em 
++Ação!!!), você pode gastar 1 Ponto de Ação para ter qual-
+quer vantagem (mesmo aquelas que custam mais de 1pt).</value>
+  </data>
+  <data name="cbxManager.ToolTip" xml:space="preserve">
+    <value>Exigências. Arte ou Sobrevivência; Improviso
+• Excelência. Quando consegue um crítico em um teste de 
+perícia que possua (incluindo perícias aprendidas com Impro-
+viso), você pode gastar 3PM para somar o atributo no teste 
+mais uma vez.
+• Housekeeping. Você é especialista em economia doméstica
+e administração de recursos. Por 3PM, escolha um número 
+máximo de aliados voluntários (incluindo você, se quiser) igual
+à sua Habilidade. Eles somam seus PM atuais. Esse total é com-
+partilhado por todos até o fim da cena, ou até você ser derrotado. 
+Se o efeito acaba, os PM restantes são divididos igualmente (arre-
+donde para baixo).
+• Sempre a postos. Você gasta 2PM (em vez de 3) para aprender
+perícias com Improviso. Além disso, pode manter até duas perícias 
+ao mesmo tempo.</value>
+  </data>
+  <data name="cbxImpostor.ToolTip" xml:space="preserve">
+    <value>Exigências. Influência; Imitar
+• Disfarce perfeito. Com um movimento e 3PM, você pode assu-
+mir a aparência de qualquer pessoa ou criatura que conheça ou 
+consiga ver (para alvos que não conheça, use a vantagem Imitar). 
+É impossível enxergar através de seu disfarce, exceto com Telepatia
+ou Sentidos, e mesmo assim o teste de Percepção tem Perda.
+• Engenheiro social. Uma vez por cena, você pode usar Influência 
+para substituir qualquer outra perícia. Você pode pagar 3PM para
+cada nova utilização na mesma cena.
+• Jogo da imitação. Você pode copiar e manter duas vantagens por
+vez com Imitar, em vez de uma.</value>
+  </data>
+  <data name="cbxIllusionist.ToolTip" xml:space="preserve">
+    <value>Exigências. Arte, Mística ou Telepata; Ilusão
+• Gambito ilusório. Seus inimigos não sabem quando atacam
+você ou uma ilusão! Uma vez por rodada, você pode gastar 1PM 
+para ter Ganho em um teste de defesa.
+• Glamour. Você pode usar seus poderes para mudar a própria
+aparência (Ganho em testes de Manha) ou a aparência de aliados
+e objetos, conforme os limites de tamanho normais para Ilusão.
+Essas ilusões se movem juntamente com seus alvos e não gastam
+movimentos do ilusionista.
+• Ilusão autônoma. Você pode criar uma ilusão que age sozinha,
+sem gastar seus movimentos (mas você ainda precisa ser capaz de
+vê-la), pelo custo normal em PM. Você pode manter ativa apenas 
+uma ilusão deste tipo. No entanto, você ainda é livre para criar outras
+ilusões.</value>
+  </data>
+  <data name="cbxIdol.ToolTip" xml:space="preserve">
+    <value>Exigências. Arte; Carismática, Famosa
+• Seu sorriso... Para você a vantagem Carismática oferece P+3,
+em vez de +2.
+• …É tão resplandecente! Você faz tudo de forma artística. Uma
+vez por cena, você pode usar Arte para substituir qualquer outra perícia.
+Você pode pagar 3PM para cada nova utilização na mesma cena.
+• Me dê a mão! Em caso de sucesso em um teste de Arte (9), você
+pode gastar um movimento e 1PM para conceder Ganho a um aliado 
+que consiga ver e ouvir você.</value>
+  </data>
+  <data name="cbxSentai.ToolTip" xml:space="preserve">
+    <value>Exigências. Elo Mental, Golpe Final, Patrono.
+• Hora de sincronizar. Seu Elo Mental funciona com todos 
+os seus aliados (no máximo 5). Eles não precisam ter também
+esta vantagem, mas recebem seus benefícios.
+• Soltar faísca. Quando você sofre dano, pode escolher pagar 
+1PM para anular 3 pontos de dano.
+• Finalização. Quando você executa um Golpe Final, cada aliado
+pode escolher pagar 3PM para somar seu próprio Poder a esse
+ataque.</value>
+  </data>
+  <data name="cbxFighter.ToolTip" xml:space="preserve">
+    <value>Exigências. Luta; Ataque Especial ou Defesa Especial
+• Lutar é tudo! Quando faz um teste de Luta, você pode gastar
+2PM para adicionar +3 ao resultado, após a rolagem (antes do 
+oponente rolar a defesa).
+• Manobra especial. Uma vez por cena, você pode usar um 
+Ataque ou Defesa Especial sem gastar PM.
+• Sem parar. Quando reduz um oponente a 0PV de forma violenta,
+você pode imediatamente fazer um ataque contra outro oponente ao
+alcance.</value>
+  </data>
+  <data name="cbxMmagica.ToolTip" xml:space="preserve">
+    <value>Exigências. Mística; Magia
+• Auxílio mágico. Quando usa Magia para emular efeitos de
+vantagens (veja em +Magia), você gasta PM igual ao custo da 
+vantagem (em vez de x3) para Ataque Especial (qualquer), Aju-
+dante (qualquer), Alcance e Mentor.
+• Punirei você! Contra um alvo perto da derrota, seu custo em
+PM para Magia cai pela metade. Apesar do nome, você também
+pode usar este poder para ajudar aliados em perigo.
+• Transformação radiante. Você pode gastar um movimento 
+para vestir seu traje mágico de combate (com musiquinha e core-
+ografia). Nesta forma, pode gastar 2PM para ter Ganho em um teste
+de Mística, e testes para descobrir sua verdadeira identidade sofrem
+Perda. A transformação dura até o fim da cena.</value>
+  </data>
+  <data name="cbxLgiant.ToolTip" xml:space="preserve">
+    <value>Exigências. Transformação; Código do Combate e Heróis
+• Poder interior. Sua forma original é aprimorada. Escolha 
+entre Forte, Ágil ou Vigoroso. Esta vantagem também se aplica
+à segunda forma.
+• Transformação gigante. Você tem uma segunda forma, 
+seguindo as regras normais desta vantagem, exceto que também
+eleva sua escala para Kiodai até o fim da cena. Esta forma também
+recebe as vantagens Alcance (uma variedade de raios e lâminas de
+energia), Golpe Final e Voo, sem custo. Um sinal piscante avisa
+quando você está perto da derrota, e você reverte para a forma  normal
+caso seja derrotado. Esta Transformação não pode ser executada se 
+não existir adversário de escala Kiodai em cena, nem em caso de vio-
+lação dos Códigos.
+• Transformação menor. Você pode adotar sua segunda forma em
+tamanho normal, com as mesmas vantagens, poderes e limitações,
+mas sem mudar de escala.</value>
+  </data>
+  <data name="cbxGthief.ToolTip" xml:space="preserve">
+    <value>Exigências. Manha; Ágil, Carismático ou Gênio
+• Ardiloso. Você pode pagar 3PM para ter os benefícios da 
+vantagem Confusão, Invisível, Inofensivo ou Telepata durante
+um turno. Você ainda deve pagar outros custos em PM se 
+houver.
+• Reconhecimento de terreno. Uma vez por sessão, por 
+ter  investigado o lugar antes, você pode escolher o local de 
+uma  cena como Arena.
+• Um passo à frente. O gatuno escapa do veneno porque 
+já tomou o antídoto! Você pode gastar 2PM para ter Ganho em
+um teste para evitar qualquer efeito negativo (exceto dano). 
+Você pode fazer isso um número de vezes por cena igual à sua
+Habilidade.</value>
+  </data>
+  <data name="cbxExperiment.ToolTip" xml:space="preserve">
+    <value>Exigências. Imune; +Mana ou +Vida
+• Adaptação. Você tem duas formas de imunidade pela vantagem 
+Imune, em vez de uma.
+• Bioenergia. Em vez de +10, você recebe +15PM ou +15PV pela 
+vantagem +Mana ou +Vida (escolha uma).
+• Mutação. Escolha um atributo. Sempre que faz um teste com o 
+atributo escolhido, você pode pagar 2PM para rolar 1D extra e 
+descartar o dado mais baixo.</value>
+  </data>
+  <data name="cbxLsoldier.ToolTip" xml:space="preserve">
+    <value>Exigências. Patrono
+• Artilharia total. Uma vez por cena, você pode fazer um Ataque Especial
+de até 3pt à sua escolha. Você ainda deve pagar seu custo em PM.
+• Armadura radiante. Por seu treino rigoroso e tecnologias de proteção, 
+você adiciona 1D a qualquer teste para resistir a efeitos nocivos (incluindo
+testes de defesa), descartando o dado mais baixo.
+• Ombro a ombro. Você pode gastar 2PM para conceder Ganho a um teste
+de um aliado Perto.</value>
+  </data>
+  <data name="cbxStudent.ToolTip" xml:space="preserve">
+    <value>Exigências. Qualquer perícia; Mentor
+• Hora do intervalo. Após uma cena de conflito, você recebe uma
+refeição básica (Ganho em um único teste, à sua escolha, até o fim 
+do dia). Você não recebe uma nova refeição antes de consumir a 
+anterior.
+• Prova real. Você pode pagar 2PM para rolar 1D extra em um tes-
+te de perícia que possua, e descartar o resultado mais baixo.
+• Quem não cola... Você pode usar a vantagem Mentor uma se-
+gunda vez por cena.</value>
+  </data>
+  <data name="cbxEentity.ToolTip" xml:space="preserve">
+    <value>Exigências. nenhuma.
+• Não conheci o outro mundo por querer! Em testes de
+morte, você pode rolar 1D extra e descartar o dado mais baixo.
+• Sorte extraplanar. Seus dons incomuns funcionam na hora 
+certa. Uma vez por sessão, você pode usar uma vantagem, técnica
+ou Energia youkai (a seguir) sem gastar PM.
+• Energia youkai. Você pode usar uma ação para gastar qualquer
+quantidade de PM e curar PV, em você mesmo ou alguém com quem
+tenha Elo Mental. Cada 2PM curam 1PV.</value>
+  </data>
+  <data name="cbxMengineer.ToolTip" xml:space="preserve">
+    <value>Exigências. Máquinas; Utensílio (ferramentas)
+• A ferramenta certa. Não há problema que algumas marteladas não 
+resolvam. Uma vez por cena, você pode usar Máquinas para substituir
+qualquer outra perícia. Você pode pagar 3PM para cada nova utilização
+na mesma cena.
+• Engenheiro de campo. Você pode criar ou improvisar aparelhos na 
+hora. Se bem-sucedido em um teste de Máquinas (9), gaste 1PM para ter
+um Ajudante de tipo à sua escolha, até o  fim da cena. Você ainda deve 
+pagar PM por cada utilização do Ajudante.
+• Martelinho de ouro. Você pode gastar uma ação para fazer um teste de 
+Máquinas (9). Se bem-sucedido, cura 2D PVs em um personagem construto
+Perto, ou soma 1D ao seu próximo teste. (Esse personagem pode ser você, 
+caso seja um construto.)</value>
+  </data>
+  <data name="cbxElementalist.ToolTip" xml:space="preserve">
+    <value>Exigências. Magia, Ambiente, Fraqueza
+• Ambiente elemental. Seu elemento escolhido é seu Ambiente.
+A desvantagem segue suas regras normais (ao rolar 1 em 1D, 
+Perda em todos os testes). No entanto, se rolar 6, seu elemento 
+existe em abundância na cena; você tem direito a uma utilização de
+Magia sem gastar PM.
+• Elemento primordial. Você sabe controlar seu elemento para 
+conseguir efeitos variados. Uma vez por sessão, com um movimento
+e 3PM, você adquire uma perícia ou vantagem de custo 1pt à sua
+escolha, até o fim da cena. Você ainda deve pagar quaisquer outros
+custos da vantagem escolhida.
+• Moldar essência. Na primeira rodada de cada cena, você pode 
+mudar seus atributos e perícias livremente — mas não vantagens,
+desvantagens e técnicas. Você reverte à forma normal no  fim da 
+cena.
+Fraqueza Elemental (–1-2 pt) Escolha um elemento oposto,
+diferente do seu, como sua Fraqueza. Decida se é comum ou 
+incomum. A desvantagem segue suas regras normais (Perda em
+todos os testes se estiver Perto).</value>
+  </data>
+  <data name="cbxDruid.ToolTip" xml:space="preserve">
+    <value>Exigências. Animais; Ajudante, Transformação; Código Dahllan
+• Forma selvagem. Sua Transformação permite mudar para
+várias feras poderosas com habilidades diferentes. Cada vez 
+que muda para sua segunda forma, escolha duas vantagens 
+extras entre as seguintes, sem custo: Aceleração, Ágil, Alcance 1,
+Forte, Imune (Anfíbio, Doenças ou Resiliente),+Membros, Paralisia,
+Regeneração, Sentido (Aguçado, Infravisão ou Radar), Vigoroso, 
+Voo.
+• Irmãos selvagens. Onde você estiver, animais (e plantas!) 
+surgem para ajudá-lo. Você pode mudar seu Ajudante para um tipo
+diferente no início de cada cena.
+• Dádiva da natureza. Animais (e plantas!) ajudam em suas 
+tarefas. Uma vez por cena, você pode usar Animais para substituir 
+qualquer outra perícia. Você pode pagar 3PM para cada nova utilização
+na mesma cena.
+Código Dahllan (–1 pt) Não consumir produtos de origem animal. 
+Nunca atacar um animal, nem deixar de prestar ajuda a um animal em 
+dificuldade.</value>
+  </data>
+  <data name="cbxDps.ToolTip" xml:space="preserve">
+    <value>Exigências. P3, Ataque Especial (qualquer)
+• Estilo de combate. Escolha entre melee ou ranged. Você 
+recebe Especialização (Luta) para atacar Perto (melee) ou Longe
+e além (ranged). No entanto, é considerado Inapto para qualquer 
+defesa e para ataques no estilo não escolhido.
+• Ataque gratuito. Uma vez por cena, você pode usar um Ataque
+Especial sem gastar PM.
+• Último recurso. Quando você está perto da derrota, todos os 
+seus ataques no estilo escolhido têm Ganho.</value>
+  </data>
+  <data name="cbxDetective.ToolTip" xml:space="preserve">
+    <value>Exigências. Manha, Percepção
+• Elementar! Uma vez por cena, você pode usar Percepção para 
+substituir qualquer outra perícia. Você pode pagar 3PM para cada 
+nova utilização na mesma cena.
+• Obter informação.
+Quando tem um crítico em um teste de Manha ou Percepção, em 
+vez de somar o atributo outra vez, você pode escolher obter uma Pista
+(anote P, a lápis, em algum lugar da ficha). Você pode fazer isso até 
+três vezes por cena. Em outros testes de Manha ou Percepção, você 
+pode gastar uma ou mais Pistas; cada Pista concede um crítico 
+automático. Pistas não usadas até o  fim da cena esfriam e são 
+perdidas.
+• Caso encerrado. Em sua presença, inimigos derrotados perma-
+necem nessa condição até o fim da cena, mesmo se recuperam PV.</value>
+  </data>
+  <data name="cbxHealer.ToolTip" xml:space="preserve">
+    <value>Exigências. Medicina; Cura
+• Paramédico. Você pode curar 1D Pontos de Vida com uma ação
+e um teste de Medicina (9).
+• Cura crítica. Sempre que você rola 6 em um dado de Cura, pode 
+rolar um dado extra. Isso também vale para os dados extras.
+• Explosão de cura. Uma vez por cena, você pode usar sua Cura
+em capacidade máxima (1D para cada ponto de Habilidade) sem 
+gastar PM.</value>
+  </data>
+  <data name="cbxOcosmonaut.ToolTip" xml:space="preserve">
+    <value>Exigências. Patrono, Inimigo (aliens)
+• Primeiro contato. Você é treinado para enfrentar o desconhecido.
+Pode gastar 2PM para receber +3 em qualquer teste de Saber ou 
+Sobrevivência.
+• Inimigo meu. Você pode usar a vantagem Inimigo para seres
+extraterrestres que nunca viu antes. Apesar do nome, também afeta 
+testes para interações sociais amistosas e prestação de ajuda.
+• Sensores avançados. Você pode pagar 2PM para adquirir um 
+Sentido à sua escolha, para um único teste.</value>
+  </data>
+  <data name="cbxCleric.ToolTip" xml:space="preserve">
+    <value>Exigências. Devoto
+• Devoto fervoroso. Você pode usar a vantagem Devoto até três
+vezes por cena, em vez de duas.
+• Dom divino. Sua divindade permite realizar milagres mágicos 
+variados. Uma vez por cena, com um movimento e 3PM, você adquire
+uma perícia ou vantagem de custo 1pt à sua escolha, até o fim da cena.
+Você ainda deve pagar outros custos da vantagem escolhida.
+• Poder concedido. Escolha uma vantagem entre as seguintes: 
+Anulação, Confusão, Cura, Defesa Especial (qualquer), Magia, 
+Paralisia.
+Se tiver essa vantagem (ou a escolheu como Dom Divino), você pode 
+usá-la sem gastar PM uma vez por cena.</value>
+  </data>
+  <data name="cbxCientist.ToolTip" xml:space="preserve">
+    <value>Exigências. Saber
+• Eureka! Você pode produzir um invento ou método capaz de 
+resolver um problema. Uma vez por sessão, com um movimento
+e 3PM, você adquire uma vantagem de custo 1pt à sua escolha, 
+até o fim da cena. Você ainda deve pagar quaisquer outros custos
+da vantagem escolhida.
+• Método científico. Você enxerga padrões nos eventos ao redor.
+Uma vez por cena, pode usar Saber para substituir qualquer outra 
+perícia. Você pode pagar 3PM para cada nova utilização na mesma 
+cena.
+• Pesquisa. Você pode gastar um movimento e 1PM para fazer um 
+teste de Saber (9) e descobrir informações sobre um personagem 
+na cena. Escolha: atributos, perícias, vantagens, desvantagens,
+técnicas ou itens. A critério do mestre, você também pode descobrir
+outros segredos.</value>
+  </data>
+  <data name="cbxCelebrity.ToolTip" xml:space="preserve">
+    <value>Exigências. Famoso, Torcida
+• Grande fama. Você gasta 2PM, em vez de 3, para usar a 
+vantagem Famoso.
+• Ovação. Quando está sob efeito de sua Torcida, você pode
+gastar um turno para recuperar 1D Pontos de Mana.
+• Rugido das massas. Além do Ganho recebido por Torcida, 
+seu teste causa um acerto crítico com 5 ou 6.</value>
+  </data>
+  <data name="cbxKnight.ToolTip" xml:space="preserve">
+    <value>Exigências. Resoluto ou Vigoroso; Código (qualquer)
+• Armadura completa. Quando sofre um ataque, você pode
+escolher gastar 2PM para reduzir em –1 o resultado de cada dado 
+do  atacante. Se ele rolar um 4, por exemplo, conta como 3. Essa 
+redução, inclusive, cancela acertos críticos. Você ainda faz seu teste
+de defesa normalmente.
+• Força da honra. Você recebe um Ganho em qualquer teste, uma vez
+por cena, para  cada Código que você tem. Se violar qualquer de seus
+Códigos, não pode usar este poder até se redimir. (Note que você pode
+escolher adotar mais de dois Códigos, embora não receba pontos de 
+personagem por estes.)
+• Inspirar aliado. Você pode gastar 1PM e uma ação para inspirar um 
+aliado que  possa vê-lo. Ele recebe Ganho em um teste em seu próximo 
+turno. Não é possível “guardar” Ganhos para depois.</value>
+  </data>
+  <data name="cbxCgamer.ToolTip" xml:space="preserve">
+    <value>Exigências. Magia, Mística, Utensílio.
+• Caiu na armadilha! Uma vez por cena, após um oponente
+realizar qualquer ação, você pode fazer um teste de Mística (6 + 
+Habilidade do oponente). Se tiver sucesso, pode usar Magia ou 
+uma técnica mágica que conheça como reação.
+• Carta na manga. Quando usa uma vantagem ou técnica
+que gasta PM, se você gastar +2PM, existe uma chance (resultado
+ímpar em 1D) de que o mesmo efeito aconteça outra vez em seu
+turno seguinte, sem custo adicional.
+• Escolha uma carta. Você invoca uma criatura. Gaste 1PM para
+receber um Ajudante até o fim da cena. Se tiver sucesso em um 
+teste de Mística (9) você escolhe o tipo de ajudante; se falhar, o 
+mestre escolhe. Você ainda deve pagar PM por cada utilização do 
+Ajudante.</value>
+  </data>
+  <data name="cbxPhunter.ToolTip" xml:space="preserve">
+    <value>Exigências. Percepção, Manha ou Sobrevivência
+• Ataque subjugante. Gaste 2PM antes de fazer um ataque.
+Se causar dano, o alvo tem Perda em testes de ataque e defesa até
+seu próximo turno.
+• Contrato.
+Quando aceita um contrato para caçar um alvo, você recebe a vanta-
+gem Inimigo temporariamente para esse alvo.
+• Mural de recompensas.
+Você sempre tem Ganho em testes para conseguir informações
+sobre procurados e suas recompensas, e também em testes
+para rastrear o alvo de seu Contrato.</value>
+  </data>
+  <data name="cbxbarbarian.ToolTip" xml:space="preserve">
+    <value>Exigências. Sobrevivência; Vigoroso
+• Espírito livre. Se estiver consciente, você nunca é considerado
+indefeso.
+• Frenesi de combate. Você pode gastar 3PM para invocar um 
+frenesi que oferece P+3 (sem afetar seus Pontos de Ação) até o 
+fim da cena. Quando o combate termina, você  fica esgotado e é 
+considerado derrotado durante toda a cena seguinte.
+• Resistência superior.
+Para você a vantagem Vigoroso oferece R+3, em vez de +2.</value>
+  </data>
+  <data name="cbxSniper.ToolTip" xml:space="preserve">
+    <value>Exigências. Manha; Alcance 2
+• Mira perfeita. Em cada cena, seu primeiro ataque contra cada
+alvo Longe ou mais impõe Perda na defesa do alvo.
+• Posição vantajosa. Você pode gastar uma ação completa
+para se colocar em um ponto protegido, recebendo Ganho em testes
+de defesa contra ataques de Longe ou mais.
+• Um tiro, duas mortes. Quando reduz um oponente a 0PV
+com um ataque à distância (Longe ou mais), o mesmo projétil segue,
+ricocheteia e atinge outro alvo à sua escolha, com a mesma rolagem 
+de ataque, sem qualquer custo extra.</value>
+  </data>
+  <data name="cbxAace.ToolTip" xml:space="preserve">
+    <value>Exigências. Influência, Defesa Especial (Reflexão)
+• Coleta de provas. Quando tem um crítico em um teste de 
+Influência ou Saber, em vez de somar o atributo outra vez, você
+pode escolher pegar uma Prova (anote P, a lápis, em algum lugar
+da  ficha). Você pode fazer isso até três vezes por cena. Em outros
+testes de Influência ou Saber, você pode gastar uma ou mais Provas;
+cada Prova concede um crítico automático. Provas não usadas até o 
+fim da cena são desqualificadas e perdidas.
+• Embargo. Você pode pagar 2PM para evitar todo o dano de um 
+ataque, ou qualquer efeito negativo por falhar em um teste. Você pode 
+fazer isso um número de vezes por sessão igual a seu Poder ou 5, o
+que for menor.
+• Objeção! Sua Defesa Especial (Reflexão) adiciona +2 ao dano
+contra o adversário.</value>
+  </data>
+  <data name="cbxMartist.ToolTip" xml:space="preserve">
+    <value>Exigências. Luta
+• Kata. Quando seu ataque vence a defesa do alvo, você pode usar 
+um movimento para aumentar o dano em 2 pontos. Se tiver mais 
+movimentos neste turno, cada um adiciona mais 2 pontos.
+• Montagem de treino. Uma vez por sessão, antes de um com-
+bate importante, você pode fazer um teste de Luta (9, ou mais para 
+oponentes muito mais fortes que você). Se tiver sucesso, aquela 
+será a luta para a qual você vinha se preparando: você recebe 
+Maestria (Luta) durante aquele combate. Se já tem a vantagem, pode
+escolher pagar 2PM para crítico com 4, 5 e 6.
+• Lutarei para conseguir! Sua arte marcial é versátil. Uma vez por 
+cena, você pode usar Luta para substituir qualquer outra perícia. 
+Você pode pagar 3PM para cada nova utilização na mesma cena.</value>
+  </data>
+  <data name="cbxAlchemist.ToolTip" xml:space="preserve">
+    <value>Exigências. Mística, Saber
+• Diagrama. Você pode gastar um movimento para traçar um diagrama
+alquímico em alguma superfície (no chão, na parede, nas costas do
+amigo distraído...). Sua próxima vantagem ou técnica que gasta PM tem
+seu custo reduzido em –1 (mínimo 1PM).
+• Diagrama pessoal. Escolha uma vantagem ou técnica que você tem 
+e gasta PM. Você pode levar consigo o diagrama necessário para usá-la 
+(em um pergaminho, bordado na roupa, tatuado no corpo...), sem precisar
+gastar um movimento para reduzir o custo.
+• Troca equivalente. Na primeira rodada de cada cena, você pode 
+mudar seus atributos e vantagens livremente, como na vantagem
+Transformação — exceto que não pode mudar perícias, desvantagens e
+técnicas. Em vez disso, você pode transmutar um aliado voluntário Perto. 
+Você (ou seu aliado) reverte à forma normal no fim da cena.</value>
+  </data>
+  <data name="cbxSagent.ToolTip" xml:space="preserve">
+    <value>Exigências. Manha ou Percepção; Patrono
+• Identidade secreta. Você tem Ganho em testes para ocultar
+suas atividades (incluindo manter-se escondido). Da mesma 
+forma, testes fetos por outros para descobrir qualquer coisa sobre
+ você têm Perda.
+• Olho clínico. Você pode gastar uma ação e 1PM para fazer um
+teste de Percepção (Habilidade, 9). Se bem-sucedido, você 
+descobre algo sobre um personagem (como um valor de atributo,
+perícia, vantagem ou desvantagem).
+• Plano de ação. Você pode gastar um movimento e 2PM para 
+analisar a situação e elaborar um plano. Até o  fim da cena você 
+recebe H+2. Isso não afeta os seus recursos.</value>
+  </data>
+  <data name="cbxWealthy.ToolTip" xml:space="preserve">
+    <value>Exigências. Influência ou Manha; Riqueza
+• Meritocracia. Uma vez por cena, você pode fazer um teste de 
+compra para usar uma vantagem que não possua, uma única vez. 
+Uma vantagem de 1pt exige um teste Médio (9); para cada ponto
+extra, a dificuldade aumenta +3. Você ainda deve pagar outros 
+custos da vantagem (como PM).
+Por exemplo, usar Incorpóreo exige um teste com meta 12, uma
+ação e 5PM.
+• Poder aquisitivo. Todos os seus testes de compra ganham +3
+no resultado  final (depois da rolagem).
+• Tempo é dinheiro! Seu primeiro teste de compra em cada 
+sessão recebe Ganho, e seu segundo teste não sofre Perda (como
+seria normal para um segundo teste).</value>
+  </data>
+</root>

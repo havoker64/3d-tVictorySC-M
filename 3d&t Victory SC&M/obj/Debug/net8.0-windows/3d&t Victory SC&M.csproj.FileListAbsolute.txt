@@ -1,0 +1,36 @@
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\3d&t Victory SC&M.exe
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\3d&t Victory SC&M.deps.json
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\3d&t Victory SC&M.runtimeconfig.json
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\3d&t Victory SC&M.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\3d&t Victory SC&M.pdb
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.MainForm.resources
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.csproj.GenerateResource.cache
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.AssemblyInfoInputs.cache
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.AssemblyInfo.cs
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.csproj.CoreCompileInputs.cache
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\refint\3d&t Victory SC&M.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.pdb
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.genruntimeconfig.cache
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\ref\3d&t Victory SC&M.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.Properties.Resources.resources
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\Ax.Fw.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\Ax.Fw.MetroFramework.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\Ax.Fw.SharedTypes.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\Ax.Fw.Windows.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\ExcelDataReader.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\MetroFramework.Design.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\MetroFramework.Fonts.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\MetroFramework.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\System.Management.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\System.Reactive.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.csproj.AssemblyReference.cache
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\3d&t Victory SC&M.csproj.CopyComplete
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.CreateForm.resources
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.AdvantagesForm.resources
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.DisadvantagesForm.resources
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.TechniquesForm.resources
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.ArtifactForm.resources
+D:\Usuarios\andreandrade\source\repos\3d&t Victory SC&M\3d&t Victory SC&M\obj\Debug\net8.0-windows\_3d_t_Victory_SC_M.KitForm.resources

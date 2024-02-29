@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lpb7zp3VaPIWlpO0ymUjiByFhU9OgjNM1+IahxHwnhnhZDM8hkOgzGbYjc+fRCYGnyWZ9MRK0NXA9LxmnPH0zg==",
+  "success": true,
+  "projectFilePath": "D:\\Usuarios\\andreandrade\\source\\repos\\3d&t Victory SC&M\\3d&t Victory SC&M\\3d&t Victory SC&M.csproj",
+  "expectedPackageFiles": [
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\ax.fw\\14.0.204\\ax.fw.14.0.204.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\ax.fw.metroframework\\14.0.204\\ax.fw.metroframework.14.0.204.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\ax.fw.sharedtypes\\14.0.204\\ax.fw.sharedtypes.14.0.204.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\ax.fw.windows\\14.0.204\\ax.fw.windows.14.0.204.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\winform.metroframework\\1.4.0\\winform.metroframework.1.4.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\winform.metroframework.design\\1.4.0\\winform.metroframework.design.1.4.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\winform.metroframework.fonts\\1.4.0\\winform.metroframework.fonts.1.4.0.nupkg.sha512",
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\winform.metroframework.install\\1.4.0\\winform.metroframework.install.1.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MetroModernUI 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MetroModernUI",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Winform.Metroframework 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Winform.Metroframework",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Winform.Metroframework.Design 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Winform.Metroframework.Design",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Winform.Metroframework.Fonts 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Winform.Metroframework.Fonts",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

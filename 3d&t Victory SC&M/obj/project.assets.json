@@ -1,0 +1,603 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Ax.Fw/14.0.204": {
+        "type": "package",
+        "dependencies": {
+          "Ax.Fw.SharedTypes": "14.0.204",
+          "System.Collections.Immutable": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Ax.Fw.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Ax.Fw.dll": {}
+        }
+      },
+      "Ax.Fw.MetroFramework/14.0.204": {
+        "type": "package",
+        "dependencies": {
+          "Ax.Fw": "14.0.204",
+          "Ax.Fw.Windows": "14.0.204"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Ax.Fw.MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Ax.Fw.MetroFramework.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Ax.Fw.SharedTypes/14.0.204": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "6.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Ax.Fw.SharedTypes.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Ax.Fw.SharedTypes.dll": {}
+        }
+      },
+      "Ax.Fw.Windows/14.0.204": {
+        "type": "package",
+        "dependencies": {
+          "System.Management": "8.0.0",
+          "System.Reactive": "6.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Ax.Fw.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Ax.Fw.Windows.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ExcelDataReader/3.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MetroModernUI/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        }
+      },
+      "System.CodeDom/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Collections.Immutable/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Management/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Winform.Metroframework/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net20/MetroFramework.dll": {}
+        }
+      },
+      "Winform.Metroframework.Design/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Winform.Metroframework": "1.4.0"
+        },
+        "compile": {
+          "lib/net20/MetroFramework.Design.dll": {}
+        },
+        "runtime": {
+          "lib/net20/MetroFramework.Design.dll": {}
+        }
+      },
+      "Winform.Metroframework.Fonts/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Winform.Metroframework": "1.4.0"
+        },
+        "compile": {
+          "lib/net20/MetroFramework.Fonts.dll": {}
+        },
+        "runtime": {
+          "lib/net20/MetroFramework.Fonts.dll": {}
+        }
+      },
+      "Winform.Metroframework.Install/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Winform.Metroframework": "1.4.0",
+          "Winform.Metroframework.Design": "1.4.0",
+          "Winform.Metroframework.Fonts": "1.4.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ax.Fw/14.0.204": {
+      "sha512": "jIVKUhIDIBw6tTReXwIc0KxGA+K1tDuQZSFlj6mhsLDLL0/jBzK4HxkA75SzDhFwokSbdAW4Q+PXNKClAMblKA==",
+      "type": "package",
+      "path": "ax.fw/14.0.204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ax.fw.14.0.204.nupkg.sha512",
+        "ax.fw.nuspec",
+        "lib/net8.0/Ax.Fw.dll"
+      ]
+    },
+    "Ax.Fw.MetroFramework/14.0.204": {
+      "sha512": "rfcp4FM91K1m7HQQd2Ka88CVgFXOdNF6C3N65+2anA60WXF5/j7pGUxBl6qe38b8URSzWBVBarY87fdQiWN3TQ==",
+      "type": "package",
+      "path": "ax.fw.metroframework/14.0.204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ax.fw.metroframework.14.0.204.nupkg.sha512",
+        "ax.fw.metroframework.nuspec",
+        "lib/net8.0-windows7.0/Ax.Fw.MetroFramework.dll"
+      ]
+    },
+    "Ax.Fw.SharedTypes/14.0.204": {
+      "sha512": "yBc/271MSUqQgK59mJIi3Q6dW3Hnq7So0gsHpKMhW4bxY9yu1TB0meZOh6bZUTpVFu9FYluXtzg/PYqWXM8zfw==",
+      "type": "package",
+      "path": "ax.fw.sharedtypes/14.0.204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ax.fw.sharedtypes.14.0.204.nupkg.sha512",
+        "ax.fw.sharedtypes.nuspec",
+        "lib/net8.0/Ax.Fw.SharedTypes.dll"
+      ]
+    },
+    "Ax.Fw.Windows/14.0.204": {
+      "sha512": "SRXKo25r+Gm+dcucJ2sKBd4cyGDVEBK3NoR48Jcxq/Uv1hIs2CPFXxZjwWaEWjaFe/cQE+yZjeGnOEOraNfj7A==",
+      "type": "package",
+      "path": "ax.fw.windows/14.0.204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ax.fw.windows.14.0.204.nupkg.sha512",
+        "ax.fw.windows.nuspec",
+        "lib/net8.0-windows7.0/Ax.Fw.Windows.dll"
+      ]
+    },
+    "ExcelDataReader/3.6.0": {
+      "sha512": "eXyxTwG7EEWpgQX3juZ2KcndqTqm/ydx9GXS2lUiMJU54U4h5eXdygRtVgINv0t60ezPWEb+lL7uM7Q+wm5BBA==",
+      "type": "package",
+      "path": "exceldatareader/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldatareader.3.6.0.nupkg.sha512",
+        "exceldatareader.nuspec",
+        "lib/net20/ExcelDataReader.dll",
+        "lib/net20/ExcelDataReader.pdb",
+        "lib/net20/ExcelDataReader.xml",
+        "lib/net45/ExcelDataReader.dll",
+        "lib/net45/ExcelDataReader.pdb",
+        "lib/net45/ExcelDataReader.xml",
+        "lib/netstandard1.3/ExcelDataReader.dll",
+        "lib/netstandard1.3/ExcelDataReader.pdb",
+        "lib/netstandard1.3/ExcelDataReader.xml",
+        "lib/netstandard2.0/ExcelDataReader.dll",
+        "lib/netstandard2.0/ExcelDataReader.pdb",
+        "lib/netstandard2.0/ExcelDataReader.xml"
+      ]
+    },
+    "MetroModernUI/1.4.0": {
+      "sha512": "p2F3w8bF1tb0tpkDceEVO65UYMKnJxdQyNxVyl/OjrFZHighicLYZDppKkiqmvBZ10XUi2mqHiIJUzXBP3GElQ==",
+      "type": "package",
+      "path": "metromodernui/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net/MetroFramework.Design.dll",
+        "lib/net/MetroFramework.Fonts.dll",
+        "lib/net/MetroFramework.dll",
+        "metromodernui.1.4.0.nupkg.sha512",
+        "metromodernui.nuspec"
+      ]
+    },
+    "System.CodeDom/8.0.0": {
+      "sha512": "WTlRjL6KWIMr/pAaq3rYqh0TJlzpouaQ/W1eelssHgtlwHAH25jXTkUphTYx9HaIIf7XA6qs/0+YhtLEQRkJ+Q==",
+      "type": "package",
+      "path": "system.codedom/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/net7.0/System.CodeDom.dll",
+        "lib/net7.0/System.CodeDom.xml",
+        "lib/net8.0/System.CodeDom.dll",
+        "lib/net8.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.8.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Collections.Immutable/8.0.0": {
+      "sha512": "AurL6Y5BA1WotzlEvVaIDpqzpIPvYnnldxru8oXJU2yFxFUy3+pNXjXd1ymO+RA0rq0+590Q8gaz2l3Sr7fmqg==",
+      "type": "package",
+      "path": "system.collections.immutable/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Collections.Immutable.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Collections.Immutable.targets",
+        "lib/net462/System.Collections.Immutable.dll",
+        "lib/net462/System.Collections.Immutable.xml",
+        "lib/net6.0/System.Collections.Immutable.dll",
+        "lib/net6.0/System.Collections.Immutable.xml",
+        "lib/net7.0/System.Collections.Immutable.dll",
+        "lib/net7.0/System.Collections.Immutable.xml",
+        "lib/net8.0/System.Collections.Immutable.dll",
+        "lib/net8.0/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "system.collections.immutable.8.0.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Management/8.0.0": {
+      "sha512": "jrK22i5LRzxZCfGb+tGmke2VH7oE0DvcDlJ1HAKYU8cPmD8XnpUT0bYn2Gy98GEhGjtfbR/sxKTVb+dE770pfA==",
+      "type": "package",
+      "path": "system.management/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "lib/net462/_._",
+        "lib/net6.0/System.Management.dll",
+        "lib/net6.0/System.Management.xml",
+        "lib/net7.0/System.Management.dll",
+        "lib/net7.0/System.Management.xml",
+        "lib/net8.0/System.Management.dll",
+        "lib/net8.0/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net6.0/System.Management.dll",
+        "runtimes/win/lib/net6.0/System.Management.xml",
+        "runtimes/win/lib/net7.0/System.Management.dll",
+        "runtimes/win/lib/net7.0/System.Management.xml",
+        "runtimes/win/lib/net8.0/System.Management.dll",
+        "runtimes/win/lib/net8.0/System.Management.xml",
+        "system.management.8.0.0.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Reactive/6.0.0": {
+      "sha512": "31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "type": "package",
+      "path": "system.reactive/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "Winform.Metroframework/1.4.0": {
+      "sha512": "AE0+76L9/xZU65tWFR27zWTLqT2nytMMOK2nhNCc7K3ksykeJLWSsdhEnx2Xh2I54Fe4vReyRqz2dc5XQ/6oFQ==",
+      "type": "package",
+      "path": "winform.metroframework/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/MetroFramework.dll",
+        "winform.metroframework.1.4.0.nupkg.sha512",
+        "winform.metroframework.nuspec"
+      ]
+    },
+    "Winform.Metroframework.Design/1.4.0": {
+      "sha512": "zsTf8YTxG351uB4KB5ya4364g7IOqwuC3vA9vHlyQzqJPKtyDreT52ZsdbOK15kQwpgBDaslMT2pV1P2RJvyWA==",
+      "type": "package",
+      "path": "winform.metroframework.design/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/MetroFramework.Design.dll",
+        "winform.metroframework.design.1.4.0.nupkg.sha512",
+        "winform.metroframework.design.nuspec"
+      ]
+    },
+    "Winform.Metroframework.Fonts/1.4.0": {
+      "sha512": "aRkxGRb77gjAbqSOMA2IEusFzZosKyQ1VkMJoQefk+5jhGDMFcpIJE5OuAeegCX+/5JSaQAB4zvAIDV5FVPesw==",
+      "type": "package",
+      "path": "winform.metroframework.fonts/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/MetroFramework.Fonts.dll",
+        "winform.metroframework.fonts.1.4.0.nupkg.sha512",
+        "winform.metroframework.fonts.nuspec"
+      ]
+    },
+    "Winform.Metroframework.Install/1.4.0": {
+      "sha512": "wXC9UUxgzh5VMzvFj7T0JITMNtCiuPaPn2kqm9sbpn3UnVbIExNL+HGNNwpbUbqcBe9Ou79QLTJg1yqRzFQm9w==",
+      "type": "package",
+      "path": "winform.metroframework.install/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "winform.metroframework.install.1.4.0.nupkg.sha512",
+        "winform.metroframework.install.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Ax.Fw.MetroFramework >= 14.0.204",
+      "ExcelDataReader >= 3.6.0",
+      "MetroModernUI >= 1.4.0",
+      "Winform.Metroframework >= 1.4.0",
+      "Winform.Metroframework.Design >= 1.4.0",
+      "Winform.Metroframework.Install >= 1.4.0"
+    ]
+  },
+  "packageFolders": {
+    "D:\\Usuarios\\andreandrade\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Usuarios\\andreandrade\\source\\repos\\3d&t Victory SC&M\\3d&t Victory SC&M\\3d&t Victory SC&M.csproj",
+      "projectName": "3d&t Victory SC&M",
+      "projectPath": "D:\\Usuarios\\andreandrade\\source\\repos\\3d&t Victory SC&M\\3d&t Victory SC&M\\3d&t Victory SC&M.csproj",
+      "packagesPath": "D:\\Usuarios\\andreandrade\\.nuget\\packages\\",
+      "outputPath": "D:\\Usuarios\\andreandrade\\source\\repos\\3d&t Victory SC&M\\3d&t Victory SC&M\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "D:\\Usuarios\\andreandrade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Ax.Fw.MetroFramework": {
+            "target": "Package",
+            "version": "[14.0.204, )"
+          },
+          "ExcelDataReader": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
+          "MetroModernUI": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
+          "Winform.Metroframework": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
+          "Winform.Metroframework.Design": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
+          "Winform.Metroframework.Install": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MetroModernUI 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MetroModernUI",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Winform.Metroframework 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Winform.Metroframework",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Winform.Metroframework.Design 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Winform.Metroframework.Design",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Winform.Metroframework.Fonts 1.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Winform.Metroframework.Fonts",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

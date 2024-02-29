@@ -1,0 +1,247 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "3d&t Victory SC&M/1.0.0": {
+        "dependencies": {
+          "Ax.Fw.MetroFramework": "14.0.204",
+          "ExcelDataReader": "3.6.0",
+          "MetroModernUI": "1.4.0",
+          "Winform.Metroframework": "1.4.0",
+          "Winform.Metroframework.Design": "1.4.0",
+          "Winform.Metroframework.Install": "1.4.0"
+        },
+        "runtime": {
+          "3d&t Victory SC&M.dll": {}
+        }
+      },
+      "Ax.Fw/14.0.204": {
+        "dependencies": {
+          "Ax.Fw.SharedTypes": "14.0.204",
+          "System.Collections.Immutable": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Ax.Fw.dll": {
+            "assemblyVersion": "14.0.204.0",
+            "fileVersion": "14.0.204.0"
+          }
+        }
+      },
+      "Ax.Fw.MetroFramework/14.0.204": {
+        "dependencies": {
+          "Ax.Fw": "14.0.204",
+          "Ax.Fw.Windows": "14.0.204"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Ax.Fw.MetroFramework.dll": {
+            "assemblyVersion": "14.0.204.0",
+            "fileVersion": "14.0.204.0"
+          }
+        }
+      },
+      "Ax.Fw.SharedTypes/14.0.204": {
+        "dependencies": {
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Ax.Fw.SharedTypes.dll": {
+            "assemblyVersion": "14.0.204.0",
+            "fileVersion": "14.0.204.0"
+          }
+        }
+      },
+      "Ax.Fw.Windows/14.0.204": {
+        "dependencies": {
+          "System.Management": "8.0.0",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Ax.Fw.Windows.dll": {
+            "assemblyVersion": "14.0.204.0",
+            "fileVersion": "14.0.204.0"
+          }
+        }
+      },
+      "ExcelDataReader/3.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "MetroModernUI/1.4.0": {
+        "runtime": {
+          "lib/net/MetroFramework.Design.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          },
+          "lib/net/MetroFramework.Fonts.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          },
+          "lib/net/MetroFramework.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          }
+        }
+      },
+      "System.CodeDom/8.0.0": {},
+      "System.Collections.Immutable/8.0.0": {},
+      "System.Management/8.0.0": {
+        "dependencies": {
+          "System.CodeDom": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Management.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
+      "Winform.Metroframework/1.4.0": {},
+      "Winform.Metroframework.Design/1.4.0": {
+        "dependencies": {
+          "Winform.Metroframework": "1.4.0"
+        }
+      },
+      "Winform.Metroframework.Fonts/1.4.0": {
+        "dependencies": {
+          "Winform.Metroframework": "1.4.0"
+        }
+      },
+      "Winform.Metroframework.Install/1.4.0": {
+        "dependencies": {
+          "Winform.Metroframework": "1.4.0",
+          "Winform.Metroframework.Design": "1.4.0",
+          "Winform.Metroframework.Fonts": "1.4.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "3d&t Victory SC&M/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ax.Fw/14.0.204": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jIVKUhIDIBw6tTReXwIc0KxGA+K1tDuQZSFlj6mhsLDLL0/jBzK4HxkA75SzDhFwokSbdAW4Q+PXNKClAMblKA==",
+      "path": "ax.fw/14.0.204",
+      "hashPath": "ax.fw.14.0.204.nupkg.sha512"
+    },
+    "Ax.Fw.MetroFramework/14.0.204": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rfcp4FM91K1m7HQQd2Ka88CVgFXOdNF6C3N65+2anA60WXF5/j7pGUxBl6qe38b8URSzWBVBarY87fdQiWN3TQ==",
+      "path": "ax.fw.metroframework/14.0.204",
+      "hashPath": "ax.fw.metroframework.14.0.204.nupkg.sha512"
+    },
+    "Ax.Fw.SharedTypes/14.0.204": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yBc/271MSUqQgK59mJIi3Q6dW3Hnq7So0gsHpKMhW4bxY9yu1TB0meZOh6bZUTpVFu9FYluXtzg/PYqWXM8zfw==",
+      "path": "ax.fw.sharedtypes/14.0.204",
+      "hashPath": "ax.fw.sharedtypes.14.0.204.nupkg.sha512"
+    },
+    "Ax.Fw.Windows/14.0.204": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SRXKo25r+Gm+dcucJ2sKBd4cyGDVEBK3NoR48Jcxq/Uv1hIs2CPFXxZjwWaEWjaFe/cQE+yZjeGnOEOraNfj7A==",
+      "path": "ax.fw.windows/14.0.204",
+      "hashPath": "ax.fw.windows.14.0.204.nupkg.sha512"
+    },
+    "ExcelDataReader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eXyxTwG7EEWpgQX3juZ2KcndqTqm/ydx9GXS2lUiMJU54U4h5eXdygRtVgINv0t60ezPWEb+lL7uM7Q+wm5BBA==",
+      "path": "exceldatareader/3.6.0",
+      "hashPath": "exceldatareader.3.6.0.nupkg.sha512"
+    },
+    "MetroModernUI/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p2F3w8bF1tb0tpkDceEVO65UYMKnJxdQyNxVyl/OjrFZHighicLYZDppKkiqmvBZ10XUi2mqHiIJUzXBP3GElQ==",
+      "path": "metromodernui/1.4.0",
+      "hashPath": "metromodernui.1.4.0.nupkg.sha512"
+    },
+    "System.CodeDom/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WTlRjL6KWIMr/pAaq3rYqh0TJlzpouaQ/W1eelssHgtlwHAH25jXTkUphTYx9HaIIf7XA6qs/0+YhtLEQRkJ+Q==",
+      "path": "system.codedom/8.0.0",
+      "hashPath": "system.codedom.8.0.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AurL6Y5BA1WotzlEvVaIDpqzpIPvYnnldxru8oXJU2yFxFUy3+pNXjXd1ymO+RA0rq0+590Q8gaz2l3Sr7fmqg==",
+      "path": "system.collections.immutable/8.0.0",
+      "hashPath": "system.collections.immutable.8.0.0.nupkg.sha512"
+    },
+    "System.Management/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrK22i5LRzxZCfGb+tGmke2VH7oE0DvcDlJ1HAKYU8cPmD8XnpUT0bYn2Gy98GEhGjtfbR/sxKTVb+dE770pfA==",
+      "path": "system.management/8.0.0",
+      "hashPath": "system.management.8.0.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
+    },
+    "Winform.Metroframework/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AE0+76L9/xZU65tWFR27zWTLqT2nytMMOK2nhNCc7K3ksykeJLWSsdhEnx2Xh2I54Fe4vReyRqz2dc5XQ/6oFQ==",
+      "path": "winform.metroframework/1.4.0",
+      "hashPath": "winform.metroframework.1.4.0.nupkg.sha512"
+    },
+    "Winform.Metroframework.Design/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zsTf8YTxG351uB4KB5ya4364g7IOqwuC3vA9vHlyQzqJPKtyDreT52ZsdbOK15kQwpgBDaslMT2pV1P2RJvyWA==",
+      "path": "winform.metroframework.design/1.4.0",
+      "hashPath": "winform.metroframework.design.1.4.0.nupkg.sha512"
+    },
+    "Winform.Metroframework.Fonts/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aRkxGRb77gjAbqSOMA2IEusFzZosKyQ1VkMJoQefk+5jhGDMFcpIJE5OuAeegCX+/5JSaQAB4zvAIDV5FVPesw==",
+      "path": "winform.metroframework.fonts/1.4.0",
+      "hashPath": "winform.metroframework.fonts.1.4.0.nupkg.sha512"
+    },
+    "Winform.Metroframework.Install/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wXC9UUxgzh5VMzvFj7T0JITMNtCiuPaPn2kqm9sbpn3UnVbIExNL+HGNNwpbUbqcBe9Ou79QLTJg1yqRzFQm9w==",
+      "path": "winform.metroframework.install/1.4.0",
+      "hashPath": "winform.metroframework.install.1.4.0.nupkg.sha512"
+    }
+  }
+}

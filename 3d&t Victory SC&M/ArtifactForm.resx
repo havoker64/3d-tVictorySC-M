@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbxMassive.ToolTip" xml:space="preserve">
+    <value>(+20XP). 
+A arma é mais pesada e potente. Em seu primeiro acerto
+crítico em um teste de ataque, você soma o Poder uma terceira vez,
+triplicando a característica. Um item não pode ser maciço e acurado ao
+mesmo tempo.</value>
+  </data>
+  <data name="cbxHoly.ToolTip" xml:space="preserve">
+    <value>(+10XP). 
+Quando o portador do artefato tem coração nobre
+(segue o Código dos Heróis), ele recebe dharma em um teste de ataque
+(arma, acessório) ou defesa (armadura, acessório) à sua escolha, uma vez
+por combate ou cena. Este dharma não causa karma.</value>
+  </data>
+  <data name="cbxVorpal.ToolTip" xml:space="preserve">
+    <value>(+50XP). 
+Quando consegue um acerto crítico e o alvo sofre qualquer
+dano, você pode gastar 5PM para forçá-lo a fazer um teste de morte
+imediatamente. Se foi mais de um crítico, o alvo tem Perda no teste.</value>
+  </data>
+  <data name="cbxInteligent.ToolTip" xml:space="preserve">
+    <value>(+10XP). 
+O artefato, arma ou armadura é inteligente, tem
+vontade própria e pode até falar com você! Escolha uma perícia para o
+artefato (você não precisa ter essa perícia); você pode gastar 3PM para
+ter Ganho ao testá-la.</value>
+  </data>
+  <data name="cbxHonor.ToolTip" xml:space="preserve">
+    <value>(–10XP). O artefato, arma ou armadura tem consciência e segue
+um Código escolhido pelo mestre. Se o personagem viola esse Có-
+igo, o artefato perde seus poderes até o fim da próxima cena, ou até o
+personagem se redimir.</value>
+  </data>
+  <data name="cbxFortify.ToolTip" xml:space="preserve">
+    <value>(+20XP). 
+A armadura é mais resistente e sem brechas. Um
+oponente não consegue acertos críticos contra você, exceto se tiver outra
+vantagem ou técnica que aumenta a chance de crítico (nesse caso, a
+chance é normal, não aumentada). Uma armadura não pode ser Fortificada
+e Leve ao mesmo tempo.</value>
+  </data>
+  <data name="cbxEnchanted.ToolTip" xml:space="preserve">
+    <value>O artefato tem um bônus mágico permanente de Poder em
+testes de ataque (arma, acessório), ou aumenta a Resistência na defesa
+(armadura, acessório). O custo depende do bônus: +1 (10XP), +2 (30XP)
++3 (50XP), +4 (70XP), +5 (90XP).</value>
+  </data>
+  <data name="cbxAuspicious.ToolTip" xml:space="preserve">
+    <value>O artefato concede uma ou mais vantagens ao portador enquanto
+é utilizado. O custo em XP é igual ao custo para comprar a vantagem
+evoluindo o personagem. Você ainda deve pagar o custo em PM para
+ativar a vantagem, se houver.</value>
+  </data>
+  <data name="cbxImproved.ToolTip" xml:space="preserve">
+    <value>O acessório aumenta um atributo em certa situação, como
+uma tiara encantada que eleva seu Poder em testes sociais, ou um capacete
+cerebral que amplia a Habilidade em testes mentais. O custo depende
+do bônus: +1 (10XP), +2 (20XP) +3 (30XP), +4 (40XP), +5 (50XP). Esta
+qualidade não afeta testes de ataque ou defesa.</value>
+  </data>
+  <data name="cbxCursed.ToolTip" xml:space="preserve">
+    <value>
+O portador do artefato sofre os efeitos de
+uma Maldição suave (–10XP) ou grave (–20XP), ou outra desvantagem de
+mesmo valor. Um artefato amaldiçoado não pode ser vendido, perdido ou
+abandonado voluntariamente: ele sempre volta para o portador. Caso seja
+roubado, a maldição passa para o ladrão. Livrar-se da maldição pode exigir
+uma missão especial; depois de cumprida, o personagem pode gastar XP
+para “recomprar” a desvantagem.</value>
+  </data>
+  <metadata name="ttInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ttInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cbxBlessed.ToolTip" xml:space="preserve">
+    <value>(+10XP). 
+A armadura ou acessório protege contra efeitos maléficos
+causados por vantagens e poderes, como Desgaste, Paralisia ou
+outros. Você recebe Ganho em testes de defesa para evitá-los e de Resistência
+para se livrar dos efeitos.</value>
+  </data>
+</root>
